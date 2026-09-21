@@ -22,7 +22,6 @@ class Settings:
     def from_env(cls) -> "Settings":
         project_root = Path(__file__).resolve().parents[1]
         load_dotenv(project_root / ".env", override=False)
-        load_dotenv(project_root / "app" / ".env", override=False)
         return cls(
             system=SystemConfig.from_env(),
             minimax=MinimaxConfig.from_env(),
