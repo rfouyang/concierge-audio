@@ -1,0 +1,1 @@
+"""MiniMax Studio page."""

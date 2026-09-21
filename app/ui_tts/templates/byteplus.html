@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="BytePlus Seed Speech studio for Unitree G1">
+    <title>BytePlus · Concierge Audio Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/daisyui.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="{{ url_for('tts_ui.static', filename='common.css') }}">
+    <link rel="stylesheet" href="{{ url_for('tts_ui.static', filename='minimax.css') }}">
+    <link rel="stylesheet" href="{{ url_for('tts_ui.static', filename='byteplus.css') }}">
+    <script defer src="{{ url_for('tts_ui.static', filename='byteplus.js') }}"></script>
+  </head>
+  <body class="byteplus-page">
+    <div class="app-frame">
+      <header class="topbar">
+        <div class="brand-group">
+          <div class="brand-mark byteplus-mark" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div>
+            <div class="brand-name">Concierge Audio</div>
+            <div class="brand-subtitle">BytePlus Seed Speech Studio</div>
+          </div>
+        </div>
+        {% include "_provider_nav.html" %}
+        <div class="header-actions">
+          <div id="service-status" class="status-pill status-checking">
+            <span class="status-dot"></span><span>检查服务</span>
+          </div>
+          <div class="g1-badge">16 kHz · Mono · WAV · G1</div>
+        </div>
+      </header>
+
+      <main class="studio-shell byteplus-shell">
+        <section class="editor-panel" aria-labelledby="studio-title">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">BYTEPLUS TEXT TO SPEECH</p>
+              <h1 id="studio-title">Seed Speech Synthesis</h1>
+            </div>
+            <div class="model-chip">
+              <span>Model</span><strong>Seed Speech TTS 2.0</strong>
+            </div>
+          </div>
+
+          <div class="editor-surface">
+            <div id="speech-text" class="speech-editor" contenteditable="true"
+              spellcheck="true" role="textbox" aria-multiline="true"
+              data-placeholder="输入要让 Unitree G1 说出的内容……&#10;&#10;选中文字后点击 Emotion，可以使用预设或精细调整语气。"></div>
+
+            <div class="editor-toolbar">
+              <div class="toolbar-primary">
+                <div class="byteplus-emotion-tool">
+                  <button id="emotion-button" type="button" class="tool-button" disabled
+                    title="先在编辑器中选中文字"><span class="tool-icon">✦</span> Emotion</button>
+                  <section id="emotion-panel" class="emotion-control-panel" hidden
+                    aria-label="BytePlus Emotion 设置">
+                    <div class="emotion-panel-header">
+                      <div>
+                        <p class="popover-title">Voice Direction</p>
+                        <p id="selection-preview" class="selection-preview"></p>
+                      </div>
+                      <button id="close-emotion-panel" type="button" class="panel-close" aria-label="关闭">×</button>
+                    </div>
+
+                    <div class="preset-section">
+                      <div class="style-section-title"><span>典型组合</span><small id="preset-count"></small></div>
+                      <div class="style-form-grid basic-style-grid">
+                        <label>一级分类<select id="preset-category" class="select select-bordered select-sm"></select></label>
+                        <label>二级分类<select id="preset-subcategory" class="select select-bordered select-sm"></select></label>
+                      </div>
+                      <input id="preset-search" class="input input-bordered input-sm" type="search"
+                        placeholder="搜索：安慰、播报、朋友、紧张……">
+                      <div id="preset-grid" class="preset-grid"></div>
+                      <p id="preset-status" class="selection-preview"></p>
+                    </div>
+
+                    <details id="advanced-style" class="advanced-style">
+                      <summary>高级设置 · 自定义</summary>
+                    <div class="style-form-grid basic-style-grid">
+                      <label><span>Emotion</span><select id="style-emotion" class="select select-bordered select-sm"></select></label>
+                      <label><span>Intensity</span><select id="style-intensity" class="select select-bordered select-sm"></select></label>
+                      <label><span>Social Tone</span><select id="style-social-tone" class="select select-bordered select-sm"></select></label>
+                      <label><span>Intent</span><select id="style-intent" class="select select-bordered select-sm"></select></label>
+                    </div>
+
+                      <div class="multi-control">
+                        <span>Mental State <small>最多 2 个</small></span>
+                        <div id="mental-state-options" class="option-chips"></div>
+                      </div>
+                      <div class="multi-control">
+                        <span>Voice Texture <small>最多 2 个</small></span>
+                        <div id="voice-texture-options" class="option-chips"></div>
+                      </div>
+                      <div class="style-form-grid acoustic-style-grid">
+                        <label><span>Pace</span><select id="style-pace" class="select select-bordered select-sm"></select></label>
+                        <label><span>Pitch</span><select id="style-pitch" class="select select-bordered select-sm"></select></label>
+                        <label><span>Energy</span><select id="style-energy" class="select select-bordered select-sm"></select></label>
+                      </div>
+
+                    <div class="prompt-preview-box">
+                      <div><span>发送给 context_texts 的 Prompt</span><span id="prompt-loading" hidden>更新中…</span></div>
+                      <p id="prompt-preview">选择参数后将在这里预览。</p>
+                    </div>
+                    </details>
+
+                    <div class="emotion-panel-actions">
+                      <button id="remove-style" type="button" class="btn btn-ghost btn-sm" hidden>移除设置</button>
+                      <span></span>
+                      <button id="cancel-style" type="button" class="btn btn-ghost btn-sm">取消</button>
+                      <button id="apply-style" type="button" class="btn btn-primary btn-sm">应用到选中文字</button>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <div class="toolbar-secondary">
+                <span>参数不会进入朗读文本</span><span class="toolbar-divider"></span>
+                <span id="character-count">0 / 10,000</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="generate-row">
+            <div class="input-actions">
+              <span class="byteplus-note">每个不同 Voice Direction 会独立合成并在服务端拼接</span>
+            </div>
+            <button id="generate-button" type="button" class="generate-button">
+              <span class="generate-spark">✦</span><span>Generate Speech</span>
+            </button>
+          </div>
+
+          <section id="result-panel" class="result-panel" hidden>
+            <div class="result-summary">
+              <span class="result-icon">▶</span>
+              <div><strong id="result-title">BytePlus Audio</strong><small id="result-meta"></small></div>
+            </div>
+            <audio id="audio-player" controls preload="metadata"></audio>
+            <a id="download-link" class="download-button" download="byteplus_16k.wav">Download</a>
+          </section>
+        </section>
+
+        <aside class="settings-panel">
+          <div class="settings-tabs" role="tablist" aria-label="BytePlus 设置和历史">
+            <button id="settings-tab" class="settings-tab active" type="button" role="tab" aria-selected="true" aria-controls="settings-content">Settings</button>
+            <button id="history-tab" class="settings-tab" type="button" role="tab" aria-selected="false" aria-controls="history-content">History <span id="history-count" class="history-count">0</span></button>
+          </div>
+          <div id="settings-content" class="settings-content" role="tabpanel" aria-labelledby="settings-tab">
+            <div class="section-title-row"><h2>Voice</h2><span class="required-label">REQUIRED</span></div>
+            <button id="voice-card" type="button" class="voice-card">
+              <span id="voice-avatar" class="voice-avatar byteplus-avatar">BP</span>
+              <span class="voice-copy"><strong id="voice-name">选择 BytePlus 音色</strong><small id="voice-language">Official TTS 2.0</small></span>
+              <span class="voice-change">Change <span>›</span></span>
+            </button>
+
+            <div class="control-stack byteplus-controls">
+              <div class="range-control">
+                <div class="range-label"><label for="speech-rate">Speech Rate</label><input id="speech-rate-value" class="parameter-number" aria-label="Speech Rate 数值" type="number" min="-50" max="100" step="1" value="0"></div>
+                <input id="speech-rate" class="range range-primary range-sm" type="range" min="-50" max="100" step="1" value="0">
+                <div class="range-extremes"><span>-50</span><span>0 · Normal</span><span>100</span></div>
+              </div>
+              <div class="range-control">
+                <div class="range-label"><label for="loudness">Loudness</label><input id="loudness-value" class="parameter-number" aria-label="Loudness 数值" type="number" min="-50" max="100" step="1" value="0"></div>
+                <input id="loudness" class="range range-primary range-sm" type="range" min="-50" max="100" step="1" value="0">
+                <div class="range-extremes"><span>-50</span><span>0 · Normal</span><span>100</span></div>
+              </div>
+            </div>
+
+            <div class="output-profile">
+              <div><span>Provider</span><strong>BytePlus</strong></div>
+              <div><span>Resource</span><strong>seed-tts-2.0</strong></div>
+              <div><span>Output</span><strong>PCM → WAV</strong></div>
+              <div><span>Robot</span><strong>16 kHz Mono</strong></div>
+            </div>
+          </div>
+          <div id="history-content" class="history-content" role="tabpanel" aria-labelledby="history-tab" hidden>
+            <div id="empty-history" class="empty-history">
+              <div class="empty-history-icon">♫</div>
+              <strong>No generations yet</strong>
+              <span>生成的音频将保存在本机，刷新后仍可查看。</span>
+            </div>
+            <div id="history-list" class="history-list" data-provider="byteplus"></div>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <dialog id="voice-dialog" class="modal">
+      <div class="modal-box voice-modal-box">
+        <form method="dialog"><button class="btn btn-sm btn-circle btn-ghost absolute right-3 top-3">✕</button></form>
+        <h2>Choose a BytePlus voice</h2>
+        <label class="voice-search"><span>⌕</span><input id="voice-search" type="search" placeholder="搜索名称或 Voice ID"></label>
+        <div class="voice-language-filters" aria-label="按语言筛选音色">
+          <button type="button" class="active" data-language="all">全部</button>
+          <button type="button" data-language="Chinese">中文</button>
+          <button type="button" data-language="English">English</button>
+          <button type="button" data-language="Japanese">日本語</button>
+          <span id="voice-result-count">正在读取…</span>
+        </div>
+        <div id="voice-list" class="voice-list byteplus-voice-list"></div>
+        <div class="manual-voice">
+          <span>Manual Voice ID</span>
+          <div class="manual-voice-row"><input id="manual-voice-id" class="input input-bordered" placeholder="zh_female_vv_uranus_bigtts"><button id="use-manual-voice" type="button" class="btn btn-primary">Use</button></div>
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop"><button>close</button></form>
+    </dialog>
+
+    <script defer src="{{ url_for('tts_ui.static', filename='history.js') }}"></script>
+    <div id="toast" class="toast toast-end toast-bottom" aria-live="polite"></div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+<nav class="provider-nav" aria-label="TTS 服务">
+  <a href="{{ url_for('tts_ui.minimax_index') }}"
+     class="provider-nav-item{% if active_provider == 'minimax' %} active{% endif %}">
+    MiniMax
+  </a>
+  <a href="{{ url_for('tts_ui.byteplus_index') }}"
+     class="provider-nav-item{% if active_provider == 'byteplus' %} active{% endif %}">
+    BytePlus
+  </a>
+</nav>

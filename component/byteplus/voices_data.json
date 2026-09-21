@@ -1,0 +1,1210 @@
+[
+  {
+    "voice_id": "ar_female_dina_uranus_bigtts",
+    "voice_name": "Dina",
+    "language": "Arabic",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ar_female_fatma_uranus_bigtts",
+    "voice_name": "Fatma",
+    "language": "Arabic",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ar_male_youssef_uranus_bigtts",
+    "voice_name": "Youssef",
+    "language": "Arabic",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "de_female_bv081_uranus_bigtts",
+    "voice_name": "Bv081",
+    "language": "German",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "de_male_sven_uranus_bigtts",
+    "voice_name": "Sven",
+    "language": "German",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_allison_uranus_bigtts",
+    "voice_name": "Allison",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_brittney_pimintel_uranus_bigtts",
+    "voice_name": "Brittney Pimintel",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_brittney_uranus_bigtts",
+    "voice_name": "Brittney",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_dacey_uranus_bigtts",
+    "voice_name": "Dacey",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_hayley_uranus_bigtts",
+    "voice_name": "Hayley",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_jane_uranus_bigtts",
+    "voice_name": "Jane",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_jenny_uranus_bigtts",
+    "voice_name": "Jenny",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_joanne_uranus_bigtts",
+    "voice_name": "Joanne",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_lana_del_rey_kelley_d_p1_uranus_bigtts",
+    "voice_name": "Lynn",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_lana_del_rey_parky_s_p1_uranus_bigtts",
+    "voice_name": "Lana Del Rey Parky S P1",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_mel_uranus_bigtts",
+    "voice_name": "Mel",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_myra_cmb_uranus_bigtts",
+    "voice_name": "Myra Cmb",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_myra_uranus_bigtts",
+    "voice_name": "Myra",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_nadia_uranus_bigtts",
+    "voice_name": "Nadia",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_natasha_uranus_bigtts",
+    "voice_name": "Natasha",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_rachel_p1_uranus_bigtts",
+    "voice_name": "Rachel P1",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_scarlet_p1_uranus_bigtts",
+    "voice_name": "Scarlet P1",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_sharron_uranus_bigtts",
+    "voice_name": "Sharron",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_skye_uranus_bigtts",
+    "voice_name": "Skye",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_stokie_uranus_bigtts",
+    "voice_name": "Stokie",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_wenrouzhishijieshuonv_uranus_bigtts",
+    "voice_name": "Wenrouzhishijieshuonv",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_xinwenjieshuonv_uranus_bigtts",
+    "voice_name": "Xinwenjieshuonv",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_female_zendaya_p1_uranus_bigtts",
+    "voice_name": "Zendaya P1",
+    "language": "English",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_alberto_uranus_bigtts",
+    "voice_name": "Alberto",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_alex_uranus_bigtts",
+    "voice_name": "Alex",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_bill_jones_corey_uranus_bigtts",
+    "voice_name": "Bill Jones Corey",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_brad_pitt_p1_uranus_bigtts",
+    "voice_name": "Brad Pitt P1",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_bruce_uranus_bigtts",
+    "voice_name": "Bruce",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_chandler_p1_uranus_bigtts",
+    "voice_name": "Chandler P1",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_cowboy_john_b_uranus_bigtts",
+    "voice_name": "Cowboy John B",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_david_uranus_bigtts",
+    "voice_name": "David",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_diyuwenrounan_uranus_bigtts",
+    "voice_name": "Diyuwenrounan",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_godfather_uranus_bigtts",
+    "voice_name": "Godfather",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_gollum_uranus_bigtts",
+    "voice_name": "Gollum",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_hades_uranus_bigtts",
+    "voice_name": "Hades",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_jamie_uranus_bigtts",
+    "voice_name": "Jamie",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_jidongchuanjiaoshi_uranus_bigtts",
+    "voice_name": "Jidongchuanjiaoshi",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_jimmy_uranus_bigtts",
+    "voice_name": "Jimmy",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_joker_uranus_bigtts",
+    "voice_name": "Joker",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_josh_coery_uranus_bigtts",
+    "voice_name": "Josh Coery",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_josh_uranus_bigtts",
+    "voice_name": "Josh",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_kevin_uranus_bigtts",
+    "voice_name": "Kevin",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_knightley_uranus_bigtts",
+    "voice_name": "Knightley",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_marcus_uranus_bigtts",
+    "voice_name": "Marcus",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_michael_kevin_uranus_bigtts",
+    "voice_name": "Michael Kevin",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_michael_uranus_bigtts",
+    "voice_name": "Michael",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_ronald_uranus_bigtts",
+    "voice_name": "Ronald",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_russell_uranus_bigtts",
+    "voice_name": "Russell",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_simba_p1_uranus_bigtts",
+    "voice_name": "Simba P1",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_tim_uranus_bigtts",
+    "voice_name": "Tim",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_tom_hiddleston_p1_uranus_bigtts",
+    "voice_name": "Tom Hiddleston P1",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_valentino_corey_uranus_bigtts",
+    "voice_name": "Valentino Corey",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_valentino_uranus_bigtts",
+    "voice_name": "Valentino",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "en_male_yangguangjieshuonan_uranus_bigtts",
+    "voice_name": "Yangguangjieshuonan",
+    "language": "English",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "es_female_bv084_uranus_bigtts",
+    "voice_name": "Bv084",
+    "language": "Spanish",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "es_female_ht_mx_f6_uranus_bigtts",
+    "voice_name": "Ht Mx F6",
+    "language": "Spanish",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "es_male_dani_uranus_bigtts",
+    "voice_name": "Dani",
+    "language": "Spanish",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "es_male_guillem_uranus_bigtts",
+    "voice_name": "Guillem",
+    "language": "Spanish",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "es_uranus_bigtts",
+    "voice_name": "Es",
+    "language": "Spanish",
+    "gender": "Unknown",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "fr_female_fr_bv078_uranus_bigtts",
+    "voice_name": "Fr Bv078",
+    "language": "French",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "fr_female_fr_f47_uranus_bigtts",
+    "voice_name": "Fr F47",
+    "language": "French",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "fr_male_fr_m29_uranus_bigtts",
+    "voice_name": "Fr M29",
+    "language": "French",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "fr_male_usseau_uranus_bigtts",
+    "voice_name": "Usseau",
+    "language": "French",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "id_female_bv161_uranus_bigtts",
+    "voice_name": "Bv161",
+    "language": "Indonesian",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "id_female_bv161dialogue_uranus_bigtts",
+    "voice_name": "Bv161dialogue",
+    "language": "Indonesian",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "id_female_bv161narration_uranus_bigtts",
+    "voice_name": "Bv161narration",
+    "language": "Indonesian",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "id_female_bv164_uranus_bigtts",
+    "voice_name": "Bv164",
+    "language": "Indonesian",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "id_female_f20_uranus_bigtts",
+    "voice_name": "F20",
+    "language": "Indonesian",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "id_female_phulia_uranus_bigtts",
+    "voice_name": "Phulia",
+    "language": "Indonesian",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "id_male_bv160_uranus_bigtts",
+    "voice_name": "Bv160",
+    "language": "Indonesian",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "id_male_bv160dialogue_uranus_bigtts",
+    "voice_name": "Bv160dialogue",
+    "language": "Indonesian",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "id_male_bv160narration_uranus_bigtts",
+    "voice_name": "Bv160narration",
+    "language": "Indonesian",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "id_male_bv164dialogue_uranus_bigtts",
+    "voice_name": "Bv164dialogue",
+    "language": "Indonesian",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "id_male_bv164narration_uranus_bigtts",
+    "voice_name": "Bv164narration",
+    "language": "Indonesian",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "id_male_han_uranus_bigtts",
+    "voice_name": "Han",
+    "language": "Indonesian",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "id_male_m08_uranus_bigtts",
+    "voice_name": "M08",
+    "language": "Indonesian",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "it_male_enzo_uranus_bigtts",
+    "voice_name": "Enzo",
+    "language": "Italian",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ja_female_bv024_uranus_bigtts",
+    "voice_name": "Bv024",
+    "language": "Japanese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ja_female_bv520_uranus_bigtts",
+    "voice_name": "Bv520",
+    "language": "Japanese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ja_female_bv521_uranus_bigtts",
+    "voice_name": "Bv521",
+    "language": "Japanese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ja_female_bv522_uranus_bigtts",
+    "voice_name": "Bv522",
+    "language": "Japanese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ja_female_bv523_uranus_bigtts",
+    "voice_name": "Bv523",
+    "language": "Japanese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ja_female_minimi_uranus_bigtts",
+    "voice_name": "Minimi",
+    "language": "Japanese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ja_female_shirou_uranus_bigtts",
+    "voice_name": "Shirou",
+    "language": "Japanese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ja_male_bv524_uranus_bigtts",
+    "voice_name": "Bv524",
+    "language": "Japanese",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ko_female_bv546_uranus_bigtts",
+    "voice_name": "Bv546",
+    "language": "Korean",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ko_male_bv545_uranus_bigtts",
+    "voice_name": "Bv545",
+    "language": "Korean",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ko_male_m03_uranus_bigtts",
+    "voice_name": "M03",
+    "language": "Korean",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ko_male_shane_uranus_bigtts",
+    "voice_name": "Shane",
+    "language": "Korean",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ms_male_ham_uranus_bigtts",
+    "voice_name": "Ham",
+    "language": "Malay",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ms_male_naim_uranus_bigtts",
+    "voice_name": "Naim",
+    "language": "Malay",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "pt_female_bv173_uranus_bigtts",
+    "voice_name": "Bv173",
+    "language": "Portuguese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "pt_female_bv173dialogue_uranus_bigtts",
+    "voice_name": "Bv173dialogue",
+    "language": "Portuguese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "pt_female_bv173emotion_uranus_bigtts",
+    "voice_name": "Bv173emotion",
+    "language": "Portuguese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "pt_female_bv173narrator_uranus_bigtts",
+    "voice_name": "Bv173narrator",
+    "language": "Portuguese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "pt_female_bv530_uranus_bigtts",
+    "voice_name": "Bv530",
+    "language": "Portuguese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "pt_female_mari_uranus_bigtts",
+    "voice_name": "Mari",
+    "language": "Portuguese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "pt_male_bv172_uranus_bigtts",
+    "voice_name": "Bv172",
+    "language": "Portuguese",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "pt_male_bv172dialogue_uranus_bigtts",
+    "voice_name": "Bv172dialogue",
+    "language": "Portuguese",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "pt_male_bv172emotion_uranus_bigtts",
+    "voice_name": "Bv172emotion",
+    "language": "Portuguese",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "pt_male_bv172narrator_uranus_bigtts",
+    "voice_name": "Bv172narrator",
+    "language": "Portuguese",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "pt_male_bv531_uranus_bigtts",
+    "voice_name": "Bv531",
+    "language": "Portuguese",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "pt_male_martins_uranus_bigtts",
+    "voice_name": "Martins",
+    "language": "Portuguese",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "pt_male_rael_uranus_bigtts",
+    "voice_name": "Rael",
+    "language": "Portuguese",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ru_female_af07_uranus_bigtts",
+    "voice_name": "Af07",
+    "language": "Russian",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ru_female_irinae_uranus_bigtts",
+    "voice_name": "Irinae",
+    "language": "Russian",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ru_female_sophie_uranus_bigtts",
+    "voice_name": "Sophie",
+    "language": "Russian",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ru_male_pavel_uranus_bigtts",
+    "voice_name": "Pavel",
+    "language": "Russian",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "ru_male_vlad_uranus_bigtts",
+    "voice_name": "Vlad",
+    "language": "Russian",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "th_female_bv568_angry_uranus_bigtts",
+    "voice_name": "Bv568 Angry",
+    "language": "Thai",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "th_female_bv568_fear_uranus_bigtts",
+    "voice_name": "Bv568 Fear",
+    "language": "Thai",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "th_female_bv568_happy_uranus_bigtts",
+    "voice_name": "Bv568 Happy",
+    "language": "Thai",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "th_female_bv568_hate_uranus_bigtts",
+    "voice_name": "Bv568 Hate",
+    "language": "Thai",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "th_female_bv568_neutral_uranus_bigtts",
+    "voice_name": "Bv568 Neutral",
+    "language": "Thai",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "th_female_bv568_sad_uranus_bigtts",
+    "voice_name": "Bv568 Sad",
+    "language": "Thai",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "th_female_bv568_suprise_uranus_bigtts",
+    "voice_name": "Bv568 Suprise",
+    "language": "Thai",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "vi_female_hong_uranus_bigtts",
+    "voice_name": "Hong",
+    "language": "Vietnamese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "vi_female_ling_uranus_bigtts",
+    "voice_name": "Ling",
+    "language": "Vietnamese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "vi_female_linh_uranus_bigtts",
+    "voice_name": "Linh",
+    "language": "Vietnamese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "vi_female_partner_uranus_bigtts",
+    "voice_name": "Partner",
+    "language": "Vietnamese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "vi_female_ruan_uranus_bigtts",
+    "voice_name": "Ruan",
+    "language": "Vietnamese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "vi_female_wu_uranus_bigtts",
+    "voice_name": "Wu",
+    "language": "Vietnamese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "vi_male_wumg_uranus_bigtts",
+    "voice_name": "Wumg",
+    "language": "Vietnamese",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_female_cancan_uranus_bigtts",
+    "voice_name": "Cancan",
+    "language": "Chinese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_female_jitangnv_uranus_bigtts",
+    "voice_name": "Jitangnv",
+    "language": "Chinese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_female_kefunvsheng_uranus_bigtts",
+    "voice_name": "Kefunvsheng",
+    "language": "Chinese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_female_linjianvhai_uranus_bigtts",
+    "voice_name": "Linjianvhai",
+    "language": "Chinese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_female_liuchangnv_uranus_bigtts",
+    "voice_name": "Liuchangnv",
+    "language": "Chinese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_female_meilinvyou_uranus_bigtts",
+    "voice_name": "Meilinvyou",
+    "language": "Chinese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_female_mizai_uranus_bigtts",
+    "voice_name": "Mizai",
+    "language": "Chinese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_female_peiqi_uranus_bigtts",
+    "voice_name": "Peiqi",
+    "language": "Chinese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_female_sajiaoxuemei_uranus_bigtts",
+    "voice_name": "Sajiaoxuemei",
+    "language": "Chinese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_female_shuangkuaisisi_uranus_bigtts",
+    "voice_name": "Shuangkuaisisi",
+    "language": "Chinese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_female_tianmeixiaoyuan_uranus_bigtts",
+    "voice_name": "Tianmeixiaoyuan",
+    "language": "Chinese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_female_vv_uranus_bigtts",
+    "voice_name": "Vivi",
+    "language": "Chinese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_female_xiaohe_uranus_bigtts",
+    "voice_name": "Mindy",
+    "language": "Chinese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_female_xiaoxue_uranus_bigtts",
+    "voice_name": "Xiaoxue",
+    "language": "Chinese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_female_yingyujiaoxue_uranus_bigtts",
+    "voice_name": "Yingyujiaoxue",
+    "language": "Chinese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_female_yuanqi_uranus_bigtts",
+    "voice_name": "Yuanqi",
+    "language": "Chinese",
+    "gender": "Female",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_male_dayi_uranus_bigtts",
+    "voice_name": "Dayi",
+    "language": "Chinese",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_male_m191_uranus_bigtts",
+    "voice_name": "Kian",
+    "language": "Chinese",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_male_ruyayichen_uranus_bigtts",
+    "voice_name": "Ruyayichen",
+    "language": "Chinese",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_male_shaonianzixin_uranus_bigtts",
+    "voice_name": "Shaonianzixin",
+    "language": "Chinese",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_male_sophie_uranus_bigtts",
+    "voice_name": "Sophie",
+    "language": "Chinese",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_male_sunwukong_uranus_bigtts",
+    "voice_name": "Sunwukong",
+    "language": "Chinese",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  },
+  {
+    "voice_id": "zh_male_taocheng_uranus_bigtts",
+    "voice_name": "Cedric",
+    "language": "Chinese",
+    "gender": "Male",
+    "category": "Official TTS 2.0",
+    "description": "BytePlus official voice"
+  }
+]

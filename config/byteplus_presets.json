@@ -1,0 +1,1975 @@
+[
+  {
+    "id": "001",
+    "name": "平静陈述",
+    "style": {
+      "emotion": "neutral",
+      "intensity": "subtle",
+      "social_tone": "neutral",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "normal"
+      ],
+      "pace": "normal",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "002",
+    "name": "专业说明",
+    "style": {
+      "emotion": "neutral",
+      "intensity": "mild",
+      "social_tone": "professional",
+      "mental_state": [
+        "calm",
+        "confident"
+      ],
+      "communicative_intent": "explain",
+      "voice_texture": [
+        "normal"
+      ],
+      "pace": "normal",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "003",
+    "name": "温柔提醒",
+    "style": {
+      "emotion": "neutral",
+      "intensity": "mild",
+      "social_tone": "gentle",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "warn",
+      "voice_texture": [
+        "soft"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "slightly_low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "004",
+    "name": "耐心安抚",
+    "style": {
+      "emotion": "neutral",
+      "intensity": "moderate",
+      "social_tone": "reassuring",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "reassure",
+      "voice_texture": [
+        "soft"
+      ],
+      "pace": "slow",
+      "pitch": "slightly_low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "005",
+    "name": "轻松聊天",
+    "style": {
+      "emotion": "happy",
+      "intensity": "mild",
+      "social_tone": "casual",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "smiling"
+      ],
+      "pace": "normal",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "006",
+    "name": "自然开心",
+    "style": {
+      "emotion": "happy",
+      "intensity": "moderate",
+      "social_tone": "warm",
+      "mental_state": [
+        "hopeful"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "bright",
+        "smiling"
+      ],
+      "pace": "normal",
+      "pitch": "slightly_high",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "007",
+    "name": "开心分享",
+    "style": {
+      "emotion": "happy",
+      "intensity": "moderate",
+      "social_tone": "casual",
+      "mental_state": [
+        "confident"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "bright",
+        "smiling"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "slightly_high",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "008",
+    "name": "开心感谢",
+    "style": {
+      "emotion": "happy",
+      "intensity": "moderate",
+      "social_tone": "warm",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "thank",
+      "voice_texture": [
+        "soft",
+        "smiling"
+      ],
+      "pace": "normal",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "009",
+    "name": "开心邀请",
+    "style": {
+      "emotion": "happy",
+      "intensity": "moderate",
+      "social_tone": "warm",
+      "mental_state": [
+        "expectant"
+      ],
+      "communicative_intent": "invite",
+      "voice_texture": [
+        "bright",
+        "smiling"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "slightly_high",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "010",
+    "name": "克制开心",
+    "style": {
+      "emotion": "happy",
+      "intensity": "mild",
+      "social_tone": "gentle",
+      "mental_state": [
+        "restrained"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "soft",
+        "smiling"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "011",
+    "name": "兴奋宣布",
+    "style": {
+      "emotion": "excited",
+      "intensity": "strong",
+      "social_tone": "casual",
+      "mental_state": [
+        "confident"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "bright",
+        "powerful"
+      ],
+      "pace": "fast",
+      "pitch": "high",
+      "energy": "very_high"
+    }
+  },
+  {
+    "id": "012",
+    "name": "惊喜兴奋",
+    "style": {
+      "emotion": "excited",
+      "intensity": "intense",
+      "social_tone": "warm",
+      "mental_state": [
+        "overwhelmed"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "bright",
+        "smiling"
+      ],
+      "pace": "fast",
+      "pitch": "high",
+      "energy": "very_high"
+    }
+  },
+  {
+    "id": "013",
+    "name": "兴奋邀请",
+    "style": {
+      "emotion": "excited",
+      "intensity": "strong",
+      "social_tone": "casual",
+      "mental_state": [
+        "expectant"
+      ],
+      "communicative_intent": "invite",
+      "voice_texture": [
+        "bright"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "slightly_high",
+      "energy": "very_high"
+    }
+  },
+  {
+    "id": "014",
+    "name": "兴奋鼓励",
+    "style": {
+      "emotion": "excited",
+      "intensity": "strong",
+      "social_tone": "warm",
+      "mental_state": [
+        "confident"
+      ],
+      "communicative_intent": "encourage",
+      "voice_texture": [
+        "powerful",
+        "bright"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "slightly_high",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "015",
+    "name": "压低兴奋",
+    "style": {
+      "emotion": "excited",
+      "intensity": "moderate",
+      "social_tone": "intimate",
+      "mental_state": [
+        "restrained",
+        "expectant"
+      ],
+      "communicative_intent": "confess",
+      "voice_texture": [
+        "soft",
+        "smiling"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "016",
+    "name": "如释重负",
+    "style": {
+      "emotion": "relieved",
+      "intensity": "moderate",
+      "social_tone": "warm",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "soft"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "slightly_low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "017",
+    "name": "释然感谢",
+    "style": {
+      "emotion": "relieved",
+      "intensity": "moderate",
+      "social_tone": "warm",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "thank",
+      "voice_texture": [
+        "soft",
+        "smiling"
+      ],
+      "pace": "slow",
+      "pitch": "normal",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "018",
+    "name": "安心确认",
+    "style": {
+      "emotion": "relieved",
+      "intensity": "mild",
+      "social_tone": "reassuring",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "confirm",
+      "voice_texture": [
+        "soft"
+      ],
+      "pace": "normal",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "019",
+    "name": "劫后余生",
+    "style": {
+      "emotion": "relieved",
+      "intensity": "strong",
+      "social_tone": "casual",
+      "mental_state": [
+        "overwhelmed",
+        "calm"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "breathy",
+        "tired"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "slightly_low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "020",
+    "name": "释怀告别",
+    "style": {
+      "emotion": "relieved",
+      "intensity": "mild",
+      "social_tone": "distant",
+      "mental_state": [
+        "resigned",
+        "calm"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "soft"
+      ],
+      "pace": "slow",
+      "pitch": "slightly_low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "021",
+    "name": "轻微难过",
+    "style": {
+      "emotion": "sad",
+      "intensity": "mild",
+      "social_tone": "gentle",
+      "mental_state": [
+        "restrained"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "soft"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "slightly_low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "022",
+    "name": "克制悲伤",
+    "style": {
+      "emotion": "sad",
+      "intensity": "moderate",
+      "social_tone": "gentle",
+      "mental_state": [
+        "hurt",
+        "restrained"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "soft",
+        "trembling"
+      ],
+      "pace": "slow",
+      "pitch": "slightly_low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "023",
+    "name": "深度悲伤",
+    "style": {
+      "emotion": "sad",
+      "intensity": "strong",
+      "social_tone": "serious",
+      "mental_state": [
+        "heartbroken"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "tearful",
+        "trembling"
+      ],
+      "pace": "slow",
+      "pitch": "low",
+      "energy": "very_low"
+    }
+  },
+  {
+    "id": "024",
+    "name": "悲伤安慰",
+    "style": {
+      "emotion": "sad",
+      "intensity": "moderate",
+      "social_tone": "comforting",
+      "mental_state": [
+        "hurt",
+        "restrained"
+      ],
+      "communicative_intent": "comfort",
+      "voice_texture": [
+        "soft",
+        "tearful"
+      ],
+      "pace": "slow",
+      "pitch": "slightly_low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "025",
+    "name": "悲伤道歉",
+    "style": {
+      "emotion": "sad",
+      "intensity": "moderate",
+      "social_tone": "gentle",
+      "mental_state": [
+        "hurt",
+        "hesitant"
+      ],
+      "communicative_intent": "apologize",
+      "voice_texture": [
+        "soft",
+        "trembling"
+      ],
+      "pace": "slow",
+      "pitch": "slightly_low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "026",
+    "name": "失望陈述",
+    "style": {
+      "emotion": "disappointed",
+      "intensity": "moderate",
+      "social_tone": "serious",
+      "mental_state": [
+        "resigned"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "tired"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "slightly_low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "027",
+    "name": "失望质问",
+    "style": {
+      "emotion": "disappointed",
+      "intensity": "strong",
+      "social_tone": "firm",
+      "mental_state": [
+        "hurt",
+        "impatient"
+      ],
+      "communicative_intent": "question",
+      "voice_texture": [
+        "low"
+      ],
+      "pace": "normal",
+      "pitch": "slightly_low",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "028",
+    "name": "失望抱怨",
+    "style": {
+      "emotion": "disappointed",
+      "intensity": "moderate",
+      "social_tone": "casual",
+      "mental_state": [
+        "hurt"
+      ],
+      "communicative_intent": "complain",
+      "voice_texture": [
+        "tired"
+      ],
+      "pace": "normal",
+      "pitch": "slightly_low",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "029",
+    "name": "无奈接受",
+    "style": {
+      "emotion": "disappointed",
+      "intensity": "mild",
+      "social_tone": "distant",
+      "mental_state": [
+        "resigned"
+      ],
+      "communicative_intent": "confirm",
+      "voice_texture": [
+        "soft",
+        "tired"
+      ],
+      "pace": "slow",
+      "pitch": "low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "030",
+    "name": "冷静失望",
+    "style": {
+      "emotion": "disappointed",
+      "intensity": "moderate",
+      "social_tone": "distant",
+      "mental_state": [
+        "restrained"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "low"
+      ],
+      "pace": "normal",
+      "pitch": "low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "031",
+    "name": "受伤却克制",
+    "style": {
+      "emotion": "hurt",
+      "intensity": "moderate",
+      "social_tone": "gentle",
+      "mental_state": [
+        "hurt",
+        "restrained"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "soft",
+        "trembling"
+      ],
+      "pace": "slow",
+      "pitch": "slightly_low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "032",
+    "name": "委屈抱怨",
+    "style": {
+      "emotion": "hurt",
+      "intensity": "moderate",
+      "social_tone": "casual",
+      "mental_state": [
+        "hurt"
+      ],
+      "communicative_intent": "complain",
+      "voice_texture": [
+        "tearful"
+      ],
+      "pace": "normal",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "033",
+    "name": "受伤质问",
+    "style": {
+      "emotion": "hurt",
+      "intensity": "strong",
+      "social_tone": "firm",
+      "mental_state": [
+        "hurt",
+        "overwhelmed"
+      ],
+      "communicative_intent": "question",
+      "voice_texture": [
+        "trembling"
+      ],
+      "pace": "normal",
+      "pitch": "slightly_high",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "034",
+    "name": "受伤挽留",
+    "style": {
+      "emotion": "hurt",
+      "intensity": "strong",
+      "social_tone": "intimate",
+      "mental_state": [
+        "heartbroken",
+        "hopeful"
+      ],
+      "communicative_intent": "request",
+      "voice_texture": [
+        "tearful",
+        "soft"
+      ],
+      "pace": "slow",
+      "pitch": "slightly_low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "035",
+    "name": "受伤安慰别人",
+    "style": {
+      "emotion": "hurt",
+      "intensity": "moderate",
+      "social_tone": "reassuring",
+      "mental_state": [
+        "hurt",
+        "restrained"
+      ],
+      "communicative_intent": "reassure",
+      "voice_texture": [
+        "soft",
+        "trembling"
+      ],
+      "pace": "slow",
+      "pitch": "slightly_low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "036",
+    "name": "轻微生气",
+    "style": {
+      "emotion": "angry",
+      "intensity": "mild",
+      "social_tone": "firm",
+      "mental_state": [
+        "restrained"
+      ],
+      "communicative_intent": "warn",
+      "voice_texture": [
+        "low"
+      ],
+      "pace": "normal",
+      "pitch": "slightly_low",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "037",
+    "name": "明显生气",
+    "style": {
+      "emotion": "angry",
+      "intensity": "strong",
+      "social_tone": "argumentative",
+      "mental_state": [
+        "impatient"
+      ],
+      "communicative_intent": "challenge",
+      "voice_texture": [
+        "powerful"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "slightly_high",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "038",
+    "name": "愤怒质问",
+    "style": {
+      "emotion": "angry",
+      "intensity": "strong",
+      "social_tone": "argumentative",
+      "mental_state": [
+        "impatient",
+        "hurt"
+      ],
+      "communicative_intent": "question",
+      "voice_texture": [
+        "powerful"
+      ],
+      "pace": "fast",
+      "pitch": "high",
+      "energy": "very_high"
+    }
+  },
+  {
+    "id": "039",
+    "name": "强硬警告",
+    "style": {
+      "emotion": "angry",
+      "intensity": "moderate",
+      "social_tone": "firm",
+      "mental_state": [
+        "confident",
+        "restrained"
+      ],
+      "communicative_intent": "warn",
+      "voice_texture": [
+        "deep",
+        "powerful"
+      ],
+      "pace": "normal",
+      "pitch": "low",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "040",
+    "name": "压抑愤怒",
+    "style": {
+      "emotion": "angry",
+      "intensity": "strong",
+      "social_tone": "distant",
+      "mental_state": [
+        "restrained",
+        "hurt"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "low",
+        "trembling"
+      ],
+      "pace": "slow",
+      "pitch": "low",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "041",
+    "name": "轻度不耐烦",
+    "style": {
+      "emotion": "annoyed",
+      "intensity": "mild",
+      "social_tone": "casual",
+      "mental_state": [
+        "impatient"
+      ],
+      "communicative_intent": "complain",
+      "voice_texture": [
+        "normal"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "042",
+    "name": "不耐烦催促",
+    "style": {
+      "emotion": "annoyed",
+      "intensity": "moderate",
+      "social_tone": "firm",
+      "mental_state": [
+        "impatient"
+      ],
+      "communicative_intent": "request",
+      "voice_texture": [
+        "low"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "slightly_low",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "043",
+    "name": "烦躁拒绝",
+    "style": {
+      "emotion": "annoyed",
+      "intensity": "moderate",
+      "social_tone": "distant",
+      "mental_state": [
+        "impatient"
+      ],
+      "communicative_intent": "reject",
+      "voice_texture": [
+        "low"
+      ],
+      "pace": "normal",
+      "pitch": "slightly_low",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "044",
+    "name": "轻微恐惧",
+    "style": {
+      "emotion": "afraid",
+      "intensity": "mild",
+      "social_tone": "serious",
+      "mental_state": [
+        "uncertain"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "soft",
+        "breathy"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "slightly_high",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "045",
+    "name": "明显害怕",
+    "style": {
+      "emotion": "afraid",
+      "intensity": "strong",
+      "social_tone": "serious",
+      "mental_state": [
+        "overwhelmed"
+      ],
+      "communicative_intent": "warn",
+      "voice_texture": [
+        "trembling",
+        "breathy"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "high",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "046",
+    "name": "恐惧求助",
+    "style": {
+      "emotion": "afraid",
+      "intensity": "strong",
+      "social_tone": "gentle",
+      "mental_state": [
+        "desperate",
+        "overwhelmed"
+      ],
+      "communicative_intent": "request",
+      "voice_texture": [
+        "trembling",
+        "tearful"
+      ],
+      "pace": "fast",
+      "pitch": "high",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "047",
+    "name": "惊恐警告",
+    "style": {
+      "emotion": "afraid",
+      "intensity": "intense",
+      "social_tone": "firm",
+      "mental_state": [
+        "desperate"
+      ],
+      "communicative_intent": "warn",
+      "voice_texture": [
+        "trembling",
+        "powerful"
+      ],
+      "pace": "fast",
+      "pitch": "high",
+      "energy": "very_high"
+    }
+  },
+  {
+    "id": "048",
+    "name": "紧张发言",
+    "style": {
+      "emotion": "nervous",
+      "intensity": "moderate",
+      "social_tone": "serious",
+      "mental_state": [
+        "hesitant",
+        "uncertain"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "trembling"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "slightly_high",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "049",
+    "name": "紧张提问",
+    "style": {
+      "emotion": "nervous",
+      "intensity": "moderate",
+      "social_tone": "gentle",
+      "mental_state": [
+        "hesitant",
+        "uncertain"
+      ],
+      "communicative_intent": "question",
+      "voice_texture": [
+        "soft",
+        "trembling"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "slightly_high",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "050",
+    "name": "紧张确认",
+    "style": {
+      "emotion": "nervous",
+      "intensity": "mild",
+      "social_tone": "reassuring",
+      "mental_state": [
+        "uncertain"
+      ],
+      "communicative_intent": "confirm",
+      "voice_texture": [
+        "soft"
+      ],
+      "pace": "normal",
+      "pitch": "slightly_high",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "051",
+    "name": "紧张告白",
+    "style": {
+      "emotion": "nervous",
+      "intensity": "strong",
+      "social_tone": "intimate",
+      "mental_state": [
+        "shy",
+        "hesitant"
+      ],
+      "communicative_intent": "confess",
+      "voice_texture": [
+        "soft",
+        "trembling"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "slightly_high",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "052",
+    "name": "惊讶反应",
+    "style": {
+      "emotion": "surprised",
+      "intensity": "moderate",
+      "social_tone": "casual",
+      "mental_state": [
+        "confused"
+      ],
+      "communicative_intent": "question",
+      "voice_texture": [
+        "bright"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "high",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "053",
+    "name": "惊喜确认",
+    "style": {
+      "emotion": "surprised",
+      "intensity": "strong",
+      "social_tone": "warm",
+      "mental_state": [
+        "expectant"
+      ],
+      "communicative_intent": "confirm",
+      "voice_texture": [
+        "bright",
+        "smiling"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "high",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "054",
+    "name": "难以置信",
+    "style": {
+      "emotion": "surprised",
+      "intensity": "strong",
+      "social_tone": "serious",
+      "mental_state": [
+        "confused",
+        "overwhelmed"
+      ],
+      "communicative_intent": "question",
+      "voice_texture": [
+        "trembling"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "high",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "055",
+    "name": "厌恶拒绝",
+    "style": {
+      "emotion": "disgusted",
+      "intensity": "moderate",
+      "social_tone": "distant",
+      "mental_state": [
+        "restrained"
+      ],
+      "communicative_intent": "reject",
+      "voice_texture": [
+        "low"
+      ],
+      "pace": "normal",
+      "pitch": "slightly_low",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "056",
+    "name": "厌烦抱怨",
+    "style": {
+      "emotion": "disgusted",
+      "intensity": "mild",
+      "social_tone": "sarcastic",
+      "mental_state": [
+        "impatient"
+      ],
+      "communicative_intent": "complain",
+      "voice_texture": [
+        "low"
+      ],
+      "pace": "normal",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "057",
+    "name": "冷漠陈述",
+    "style": {
+      "emotion": "cold",
+      "intensity": "moderate",
+      "social_tone": "distant",
+      "mental_state": [
+        "restrained"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "low"
+      ],
+      "pace": "normal",
+      "pitch": "low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "058",
+    "name": "冷淡拒绝",
+    "style": {
+      "emotion": "cold",
+      "intensity": "moderate",
+      "social_tone": "distant",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "reject",
+      "voice_texture": [
+        "low"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "059",
+    "name": "冷静警告",
+    "style": {
+      "emotion": "cold",
+      "intensity": "moderate",
+      "social_tone": "firm",
+      "mental_state": [
+        "confident",
+        "restrained"
+      ],
+      "communicative_intent": "warn",
+      "voice_texture": [
+        "deep",
+        "low"
+      ],
+      "pace": "slow",
+      "pitch": "low",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "060",
+    "name": "温柔安慰",
+    "style": {
+      "emotion": "neutral",
+      "intensity": "moderate",
+      "social_tone": "comforting",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "comfort",
+      "voice_texture": [
+        "soft"
+      ],
+      "pace": "slow",
+      "pitch": "slightly_low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "061",
+    "name": "温柔鼓励",
+    "style": {
+      "emotion": "happy",
+      "intensity": "mild",
+      "social_tone": "warm",
+      "mental_state": [
+        "hopeful"
+      ],
+      "communicative_intent": "encourage",
+      "voice_texture": [
+        "soft",
+        "smiling"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "062",
+    "name": "温柔道歉",
+    "style": {
+      "emotion": "sad",
+      "intensity": "mild",
+      "social_tone": "gentle",
+      "mental_state": [
+        "hesitant"
+      ],
+      "communicative_intent": "apologize",
+      "voice_texture": [
+        "soft"
+      ],
+      "pace": "slow",
+      "pitch": "slightly_low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "063",
+    "name": "温柔请求",
+    "style": {
+      "emotion": "neutral",
+      "intensity": "mild",
+      "social_tone": "gentle",
+      "mental_state": [
+        "hesitant"
+      ],
+      "communicative_intent": "request",
+      "voice_texture": [
+        "soft"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "normal",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "064",
+    "name": "亲密低语",
+    "style": {
+      "emotion": "happy",
+      "intensity": "mild",
+      "social_tone": "intimate",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "whispering",
+        "soft"
+      ],
+      "pace": "slow",
+      "pitch": "slightly_low",
+      "energy": "very_low"
+    }
+  },
+  {
+    "id": "065",
+    "name": "暧昧试探",
+    "style": {
+      "emotion": "happy",
+      "intensity": "moderate",
+      "social_tone": "flirty",
+      "mental_state": [
+        "shy",
+        "expectant"
+      ],
+      "communicative_intent": "question",
+      "voice_texture": [
+        "soft",
+        "breathy"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "normal",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "066",
+    "name": "暧昧调侃",
+    "style": {
+      "emotion": "happy",
+      "intensity": "moderate",
+      "social_tone": "flirty",
+      "mental_state": [
+        "confident"
+      ],
+      "communicative_intent": "tease",
+      "voice_texture": [
+        "smiling",
+        "breathy"
+      ],
+      "pace": "normal",
+      "pitch": "slightly_high",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "067",
+    "name": "害羞告白",
+    "style": {
+      "emotion": "happy",
+      "intensity": "moderate",
+      "social_tone": "intimate",
+      "mental_state": [
+        "shy",
+        "hesitant"
+      ],
+      "communicative_intent": "confess",
+      "voice_texture": [
+        "soft",
+        "trembling"
+      ],
+      "pace": "slow",
+      "pitch": "slightly_high",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "068",
+    "name": "撒娇请求",
+    "style": {
+      "emotion": "happy",
+      "intensity": "moderate",
+      "social_tone": "cute",
+      "mental_state": [
+        "expectant"
+      ],
+      "communicative_intent": "request",
+      "voice_texture": [
+        "soft",
+        "smiling"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "slightly_high",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "069",
+    "name": "撒娇抱怨",
+    "style": {
+      "emotion": "annoyed",
+      "intensity": "mild",
+      "social_tone": "cute",
+      "mental_state": [
+        "hurt"
+      ],
+      "communicative_intent": "complain",
+      "voice_texture": [
+        "soft"
+      ],
+      "pace": "normal",
+      "pitch": "slightly_high",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "070",
+    "name": "俏皮调侃",
+    "style": {
+      "emotion": "happy",
+      "intensity": "moderate",
+      "social_tone": "teasing",
+      "mental_state": [
+        "confident"
+      ],
+      "communicative_intent": "tease",
+      "voice_texture": [
+        "smiling",
+        "bright"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "slightly_high",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "071",
+    "name": "轻微讽刺",
+    "style": {
+      "emotion": "annoyed",
+      "intensity": "mild",
+      "social_tone": "sarcastic",
+      "mental_state": [
+        "confident"
+      ],
+      "communicative_intent": "challenge",
+      "voice_texture": [
+        "low"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "072",
+    "name": "强烈讽刺",
+    "style": {
+      "emotion": "angry",
+      "intensity": "moderate",
+      "social_tone": "sarcastic",
+      "mental_state": [
+        "impatient"
+      ],
+      "communicative_intent": "challenge",
+      "voice_texture": [
+        "low"
+      ],
+      "pace": "normal",
+      "pitch": "slightly_low",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "073",
+    "name": "专业客服",
+    "style": {
+      "emotion": "neutral",
+      "intensity": "mild",
+      "social_tone": "professional",
+      "mental_state": [
+        "calm",
+        "confident"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "normal"
+      ],
+      "pace": "normal",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "074",
+    "name": "客服安抚",
+    "style": {
+      "emotion": "neutral",
+      "intensity": "moderate",
+      "social_tone": "reassuring",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "reassure",
+      "voice_texture": [
+        "soft"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "075",
+    "name": "客服道歉",
+    "style": {
+      "emotion": "sad",
+      "intensity": "mild",
+      "social_tone": "professional",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "apologize",
+      "voice_texture": [
+        "soft"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "normal",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "076",
+    "name": "客服解释",
+    "style": {
+      "emotion": "neutral",
+      "intensity": "mild",
+      "social_tone": "professional",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "explain",
+      "voice_texture": [
+        "normal"
+      ],
+      "pace": "normal",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "077",
+    "name": "正式播报",
+    "style": {
+      "emotion": "neutral",
+      "intensity": "mild",
+      "social_tone": "serious",
+      "mental_state": [
+        "confident"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "deep"
+      ],
+      "pace": "normal",
+      "pitch": "slightly_low",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "078",
+    "name": "新闻紧急播报",
+    "style": {
+      "emotion": "neutral",
+      "intensity": "strong",
+      "social_tone": "serious",
+      "mental_state": [
+        "confident"
+      ],
+      "communicative_intent": "warn",
+      "voice_texture": [
+        "powerful"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "normal",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "079",
+    "name": "悬疑旁白",
+    "style": {
+      "emotion": "afraid",
+      "intensity": "mild",
+      "social_tone": "serious",
+      "mental_state": [
+        "suspicious"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "low",
+        "breathy"
+      ],
+      "pace": "slow",
+      "pitch": "low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "080",
+    "name": "恐怖旁白",
+    "style": {
+      "emotion": "afraid",
+      "intensity": "strong",
+      "social_tone": "serious",
+      "mental_state": [
+        "overwhelmed"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "whispering",
+        "trembling"
+      ],
+      "pace": "very_slow",
+      "pitch": "low",
+      "energy": "very_low"
+    }
+  },
+  {
+    "id": "081",
+    "name": "温暖旁白",
+    "style": {
+      "emotion": "happy",
+      "intensity": "mild",
+      "social_tone": "warm",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "soft"
+      ],
+      "pace": "slow",
+      "pitch": "normal",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "082",
+    "name": "史诗旁白",
+    "style": {
+      "emotion": "neutral",
+      "intensity": "strong",
+      "social_tone": "serious",
+      "mental_state": [
+        "confident"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "deep",
+        "powerful"
+      ],
+      "pace": "slow",
+      "pitch": "low",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "083",
+    "name": "深夜电台",
+    "style": {
+      "emotion": "neutral",
+      "intensity": "mild",
+      "social_tone": "intimate",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "soft",
+        "breathy"
+      ],
+      "pace": "slow",
+      "pitch": "slightly_low",
+      "energy": "very_low"
+    }
+  },
+  {
+    "id": "084",
+    "name": "睡前故事",
+    "style": {
+      "emotion": "happy",
+      "intensity": "mild",
+      "social_tone": "gentle",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "soft"
+      ],
+      "pace": "very_slow",
+      "pitch": "slightly_low",
+      "energy": "very_low"
+    }
+  },
+  {
+    "id": "085",
+    "name": "儿童故事兴奋",
+    "style": {
+      "emotion": "excited",
+      "intensity": "strong",
+      "social_tone": "cute",
+      "mental_state": [
+        "expectant"
+      ],
+      "communicative_intent": "inform",
+      "voice_texture": [
+        "bright"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "high",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "086",
+    "name": "游戏NPC欢迎",
+    "style": {
+      "emotion": "happy",
+      "intensity": "moderate",
+      "social_tone": "warm",
+      "mental_state": [
+        "confident"
+      ],
+      "communicative_intent": "invite",
+      "voice_texture": [
+        "bright"
+      ],
+      "pace": "normal",
+      "pitch": "normal",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "087",
+    "name": "游戏NPC警告",
+    "style": {
+      "emotion": "angry",
+      "intensity": "moderate",
+      "social_tone": "firm",
+      "mental_state": [
+        "confident"
+      ],
+      "communicative_intent": "warn",
+      "voice_texture": [
+        "deep",
+        "powerful"
+      ],
+      "pace": "normal",
+      "pitch": "low",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "088",
+    "name": "反派威胁",
+    "style": {
+      "emotion": "cold",
+      "intensity": "strong",
+      "social_tone": "distant",
+      "mental_state": [
+        "confident"
+      ],
+      "communicative_intent": "warn",
+      "voice_texture": [
+        "deep",
+        "low"
+      ],
+      "pace": "slow",
+      "pitch": "low",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "089",
+    "name": "反派嘲讽",
+    "style": {
+      "emotion": "happy",
+      "intensity": "mild",
+      "social_tone": "sarcastic",
+      "mental_state": [
+        "confident"
+      ],
+      "communicative_intent": "challenge",
+      "voice_texture": [
+        "low",
+        "smiling"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "slightly_low",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "090",
+    "name": "英雄鼓舞",
+    "style": {
+      "emotion": "excited",
+      "intensity": "strong",
+      "social_tone": "firm",
+      "mental_state": [
+        "confident",
+        "hopeful"
+      ],
+      "communicative_intent": "encourage",
+      "voice_texture": [
+        "powerful"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "normal",
+      "energy": "very_high"
+    }
+  },
+  {
+    "id": "091",
+    "name": "老师讲解",
+    "style": {
+      "emotion": "neutral",
+      "intensity": "mild",
+      "social_tone": "professional",
+      "mental_state": [
+        "calm",
+        "confident"
+      ],
+      "communicative_intent": "explain",
+      "voice_texture": [
+        "normal"
+      ],
+      "pace": "slightly_slow",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "092",
+    "name": "老师鼓励",
+    "style": {
+      "emotion": "happy",
+      "intensity": "mild",
+      "social_tone": "warm",
+      "mental_state": [
+        "hopeful"
+      ],
+      "communicative_intent": "encourage",
+      "voice_texture": [
+        "soft",
+        "smiling"
+      ],
+      "pace": "normal",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "093",
+    "name": "老师提醒",
+    "style": {
+      "emotion": "neutral",
+      "intensity": "moderate",
+      "social_tone": "firm",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "warn",
+      "voice_texture": [
+        "normal"
+      ],
+      "pace": "normal",
+      "pitch": "slightly_low",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "094",
+    "name": "主持人开场",
+    "style": {
+      "emotion": "excited",
+      "intensity": "moderate",
+      "social_tone": "professional",
+      "mental_state": [
+        "confident"
+      ],
+      "communicative_intent": "invite",
+      "voice_texture": [
+        "bright",
+        "powerful"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "slightly_high",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "095",
+    "name": "主持人收尾",
+    "style": {
+      "emotion": "happy",
+      "intensity": "moderate",
+      "social_tone": "warm",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "thank",
+      "voice_texture": [
+        "smiling"
+      ],
+      "pace": "normal",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "096",
+    "name": "朋友安慰",
+    "style": {
+      "emotion": "sad",
+      "intensity": "mild",
+      "social_tone": "comforting",
+      "mental_state": [
+        "calm"
+      ],
+      "communicative_intent": "comfort",
+      "voice_texture": [
+        "soft"
+      ],
+      "pace": "slow",
+      "pitch": "slightly_low",
+      "energy": "low"
+    }
+  },
+  {
+    "id": "097",
+    "name": "朋友吐槽",
+    "style": {
+      "emotion": "annoyed",
+      "intensity": "mild",
+      "social_tone": "casual",
+      "mental_state": [
+        "impatient"
+      ],
+      "communicative_intent": "complain",
+      "voice_texture": [
+        "normal"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "normal",
+      "energy": "medium"
+    }
+  },
+  {
+    "id": "098",
+    "name": "朋友鼓励",
+    "style": {
+      "emotion": "happy",
+      "intensity": "moderate",
+      "social_tone": "casual",
+      "mental_state": [
+        "confident",
+        "hopeful"
+      ],
+      "communicative_intent": "encourage",
+      "voice_texture": [
+        "bright"
+      ],
+      "pace": "normal",
+      "pitch": "normal",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "099",
+    "name": "朋友调侃",
+    "style": {
+      "emotion": "happy",
+      "intensity": "moderate",
+      "social_tone": "teasing",
+      "mental_state": [
+        "confident"
+      ],
+      "communicative_intent": "tease",
+      "voice_texture": [
+        "smiling"
+      ],
+      "pace": "slightly_fast",
+      "pitch": "slightly_high",
+      "energy": "high"
+    }
+  },
+  {
+    "id": "100",
+    "name": "认真道歉",
+    "style": {
+      "emotion": "sad",
+      "intensity": "moderate",
+      "social_tone": "serious",
+      "mental_state": [
+        "hurt",
+        "restrained"
+      ],
+      "communicative_intent": "apologize",
+      "voice_texture": [
+        "soft"
+      ],
+      "pace": "slow",
+      "pitch": "slightly_low",
+      "energy": "low"
+    }
+  }
+]

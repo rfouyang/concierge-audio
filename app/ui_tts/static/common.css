@@ -1,0 +1,39 @@
+.provider-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid #e9e7ee;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, .78);
+  box-shadow: 0 4px 18px rgba(35, 28, 53, .04);
+}
+
+.provider-nav-item {
+  min-width: 94px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  color: #777281;
+  font-size: 12px;
+  font-weight: 750;
+  text-decoration: none;
+  transition: color .16s ease, background .16s ease, box-shadow .16s ease;
+}
+
+.provider-nav-item:hover { color: #5e43d4; background: #f3f0ff; }
+.provider-nav-item.active {
+  color: #fff;
+  background: linear-gradient(135deg, #896ffa, #6e4de9);
+  box-shadow: 0 5px 13px rgba(107, 75, 228, .22);
+}
+
+@media (max-width: 760px) {
+  .provider-nav { order: 3; width: 100%; }
+  .provider-nav-item { flex: 1; }
+}
+.saved-audio p { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 180px; overflow-y: auto; -webkit-line-clamp: unset; }
+.saved-audio audio { width: 100%; margin: 10px 0; }
+.saved-audio-actions { display: flex; gap: 8px; }
